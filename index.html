@@ -31,6 +31,34 @@
 </head>
 
 <body>
+
+  <!-- popup -->
+  <div class="modal fade" id="pageLoadModal" tabindex="-1" aria-labelledby="pageLoadModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="pageLoadModalLabel">Notice</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="icon.png" alt="">
+        </div>
+        <div class="modal-footer">
+       
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Continue Site</button>
+       
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  <!-- popup js coode -->
+  <script>
+    window.addEventListener('load', function() {
+      var myModal = new bootstrap.Modal(document.getElementById('pageLoadModal'));
+      myModal.show();
+    });
+  </script>
     
 
     
