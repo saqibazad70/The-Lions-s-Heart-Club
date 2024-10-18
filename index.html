@@ -27,26 +27,32 @@
 .hover-effect:hover img {
     transform: scale(1.1); 
 }
+
+
+.card{
+  padding: 0;
+  
+}
 </style>
 </head>
 
 <body>
 
   <!-- popup -->
-  <div class="modal fade" id="pageLoadModal" tabindex="-1" aria-labelledby="pageLoadModalLabel" aria-hidden="true" style="margin-top: 200px;">
+  <div class="modal fade" id="pageLoadModal" tabindex="-1" aria-labelledby="pageLoadModalLabel" aria-hidden="true" style="margin-top: 150px;">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="pageLoadModalLabel">Notice:-</h5>
+          <h5 class="modal-title" id="pageLoadModalLabel">Club Notice:-</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-        <div class="modal-body">
-          <img src="images/notice.jpg" height="200px" width="300px" style="margin: auto;" alt="">
+        <div class="modal-body m-auto">
+          <img src="images/notice.jpg" height="200px" width="300px"  alt="">
         </div>
         <div class="modal-footer">
-       
+          <div class="m-auto">
           <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Continue Site</button>
-       
+        </div>
         </div>
   
       </div>
@@ -189,7 +195,7 @@
       <div class="row col-sm-12 md-4 p-4">
         <div class="col">
           <a href="#" style="text-decoration: none;" class="card hover-effect">
-            <img src="images/player2.jpg" class="card-img-top" alt="...">
+            <img src="images/player2.jpg" class="card-img-top" alt="..." style="border-radius: 50%;">
             <div class="card-body hover-effect">
               <p class="card-title"><b>Mohd. Firoz</b></p>
             <p>District tkd Gold Medal 🎖️</p>
@@ -198,7 +204,7 @@
         </div>
         <div class="col">
           <a href="#" style="text-decoration: none;" class="card hover-effect">
-            <img src="images/gau1.png" class="card-img-top" alt="...">
+            <img src="images/gau1.png" class="card-img-top" alt="..." style="border-radius: 50%;">
             <div class="card-body">
               <p class="card-title"><b>Md. Gauhar</b></p>
               <p>District tkd Gold Medal 🎖️</p>
@@ -214,7 +220,7 @@
         <div class="row col-sm-12 md-4 p-4">
         <div class="col">
           <a href="#" style="text-decoration: none;" class="card hover-effect">
-            <img src="images/player3.jpg" class="card-img-top" alt="...">
+            <img src="images/player3.jpg" class="card-img-top" alt="..." style="border-radius: 50%;">
             <div class="card-body">
               <p class="card-title"><b>Saurav Sinha</b></p>
               <p>District tkd Gold Medal 🎖️</p>
@@ -223,10 +229,10 @@
         </div>
         <div class="col">
           <a href="saqibId.html" style="text-decoration: none;" class="card hover-effect">
-            <img src="images/player1.jpg" class="card-img-top" alt="...">
+            <img src="images/player1.jpg" class="card-img-top" alt="..." style="border-radius: 50%;">
             <div class="card-body hover-effect">
               <p class="card-title"><b>Mohd. Saqib</b></p>
-              <p>National Silver Medal 🥈</p>
+              <p>National tkd Silver Medal 🥈</p>
             </div>
           </a>
         </div>
@@ -316,6 +322,79 @@
     </div>
     <br>
 
+
+
+
+
+
+
+     <!-- <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="card-wrapper container-sm d-flex  justify-content-around">
+          <div class="card  " style="width: 18rem;">
+      <img src="images/player1.jpg" class="card-img-top" alt="..." style="border-radius: 50%; background-color: black;">
+      <div class="card-body">
+        <h5 class="card-title">Mohd.Saqib</h5>
+        
+      </div>
+    </div>
+            <div class="card" style="width: 18rem;">
+      <img src="images/player1.jpg" class="card-img-top" alt="..." style="border-radius: 50%;">
+      <div class="card-body">
+        <h5 class="card-title">Mohd.Saqib</h5>
+        
+      </div>
+    </div>
+    </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card-wrapper container-sm d-flex   justify-content-around">
+          <div class="card  " style="width: 18rem;">
+      <img src="images/gau1.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Mohammad Gauhar</h5>
+        
+      </div>
+    </div>
+            <div class="card" style="width: 18rem;">
+      <img src="images/gau1.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        
+      </div>
+    </div>
+        </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card-wrapper container-sm d-flex  justify-content-around">
+          <div class="card " style="width: 18rem;">
+      <img src="images/player3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        
+      </div>
+    </div>
+            
+            <div class="card" style="width: 18rem;">
+      <img src="images/player3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        
+      </div>
+    </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div> -->
+    
     <!-- footer -->
 <footer class="text-center text-lg-start bg-body-light text-muted">
   <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
@@ -410,7 +489,7 @@
             theoneghaus@gmail.com
           </p>
           <p><i class="fas fa-phone me-3"></i> +919939496485</p>
-          <p><i class="fas fa-print me-3"></i> +91 7321819312</p>
+          <p><i class="fas fa-print me-3"></i> +917321819312</p>
         </div>
       </div>
     </div>
